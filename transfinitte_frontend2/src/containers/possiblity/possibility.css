@@ -1,0 +1,73 @@
+.gpt3__possibility {
+    text-align: center;
+    padding: 4rem;
+}
+
+.gpt3__possibility-heading {
+    margin-bottom: 2rem;
+}
+
+.competitors__container {
+    display: flex;
+    justify-content: space-around; 
+    gap: 20px;
+    flex-wrap: wrap;
+    font-family: var(--font-family);
+    padding: 2rem;
+}
+
+.font {
+    font-family: var(--font-family);
+}
+
+.competitor__tile {
+    width: 220px; 
+    text-align: center;
+    background-color: #f9f9f9; 
+    padding: 1.5rem;
+    border-radius: 12px; 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.competitor__tile:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.competitor__tile-image {
+    width: 80%; 
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.competitor__tile h3 {
+    font-size: 20px; 
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.competitor__tile button {
+    padding: 0.6rem 1.2rem; 
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500; 
+    transition: background-color 0.3s; 
+}
+
+.competitor__tile button:hover {
+    background-color: #0056b3; 
+}
+
+.gpt3__whatgpt {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 2rem;
+    background: var(--color-footer);
+    background: radial-gradient(circle at 30% -100%, #1abc9c 25%, rgba(26, 188, 156, 1) 85%, rgba(52, 152, 219, 1) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
